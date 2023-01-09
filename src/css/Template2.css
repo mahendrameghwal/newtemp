@@ -11,6 +11,7 @@
   width: 70%;
   margin: 50px auto;
   background-color: white;
+  padding: 20px 0;
 }
 .fname {
   color: var(--Temp2-color);
@@ -27,7 +28,8 @@ hr {
 }
 .temp2-summary,
 .temp2-skill,
-.temp2-education {
+.temp2-education,
+.temp2-work-exp {
   margin: 0 50px;
 }
 .temp2-skill {
@@ -68,10 +70,21 @@ hr {
   width: 100%;
   margin: 0;
 }
-.temp2-education1{
-    margin: 10px 0;
+.temp2-education1 {
+  margin: 10px 0;
 }
-.education-details {
+.temp2-education-details,
+.temp2-exp-details {
   display: flex;
   justify-content: space-between;
+}
+.temp2-edu-summary {
+  width: 70%;
+  margin: 10px 0;
+}
+.temp2-exp-points {
+  padding: 0 20px;
+}
+.temp2-exp-points li {
+  line-height: 30px;
 }
