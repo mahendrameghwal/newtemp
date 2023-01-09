@@ -70,7 +70,7 @@ const Template1 = () => {
 
       <div className="education">
         <h2 className="heading">EDUCATION</h2>
-        <div className="inner-education">
+        <div className="temp1-inner-education">
           <div>
             <div className="college-container">
               <h4 className="college-name">
@@ -85,7 +85,7 @@ const Template1 = () => {
           </ul>
         </div>
 
-        <div className="inner-education">
+        <div className="temp1-inner-education">
           <div>
             <div className="college-container">
               <h4 className="college-name">

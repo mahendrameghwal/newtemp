@@ -67,32 +67,92 @@ const Template2 = () => {
         //Education
       }
       <div className="temp2-education">
-      <p className="temp2-haeding">EDUCATION</p>
-      
-      <div className="inner-education">
+        <p className="temp2-haeding">EDUCATION</p>
 
-      <div className="temp2-education1">
-      <div className="education-details"><h3>Educational Qualification/ Degree, Major</h3><span>2000 - 2000</span></div>
-      <div className="education-details"><p>University Name, Any City</p></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie orci ac nulla dapibus, eget suscipit felis porta.</p>
+        <div className="temp2-inner-education">
+          <div className="temp2-education1">
+            <div className="temp2-education-details ">
+              <h3>Educational Qualification/ Degree, Major</h3>
+              <span>2000 - 2000</span>
+            </div>
+            <div className="education-details">
+              <p>University Name, Any City</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              molestie orci ac nulla dapibus, eget suscipit felis porta.
+            </p>
+          </div>
+          <div className="temp2-education1">
+            <div className="temp2-education-details ">
+              <h3>Educational Qualification/ Degree, Major</h3>
+              <span>2000 - 2000</span>
+            </div>
+            <div className="education-details">
+              <p>University Name, Any City</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              molestie orci ac nulla dapibus, eget suscipit felis porta.
+            </p>
+          </div>
+        </div>
+      </div>
+ <hr/>
 
-      
-      
-      </div>
-      <div className="temp2-education1">
-      <div className="education-details"><h3>Educational Qualification/ Degree, Major</h3><span>2000 - 2000</span></div>
-      <div className="education-details"><p>University Name, Any City</p></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie orci ac nulla dapibus, eget suscipit felis porta.</p>
+      {
 
-      
-      
-      </div>
-      
-      
-      
-      </div>
-      
-      </div>
+        //work-exprienece
+      }
+
+    <div className="temp2-work-exp">
+    <p className="temp2-haeding">WORK-EXPRIENCE</p>
+  <div className="temp2-exp1">
+  
+  <div className="temp2-exp-details ">
+  <h3>Company Name, Any City</h3>
+  <span>Month, Year - Month, Year</span>
+</div>
+
+<div className="temp2-exp-details">
+<p>Company Name, Any City</p>
+</div>
+
+<div className="temp2-exp-points">
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+<li> Praesent molestie orci ac nulla dapibus, eget suscipit felis porta.</li>
+<li>Suspendisse fringilla et libero nec commodo. In hac habitasse platea dictumst.</li>
+
+</ul>
+
+</div>
+  </div>
+<br/>
+
+  <div className="temp2-exp1">
+  
+  <div className="temp2-exp-details ">
+  <h3>Company Name, Any City</h3>
+  <span>Month, Year - Month, Year</span>
+</div>
+
+<div className="temp2-exp-details">
+<p>Company Name, Any City</p>
+</div>
+
+<div className="temp2-exp-points">
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+<li> Praesent molestie orci ac nulla dapibus, eget suscipit felis porta.</li>
+<li>Suspendisse fringilla et libero nec commodo. In hac habitasse platea dictumst.</li>
+
+</ul>
+
+</div>
+  </div>
+
+    </div>
     </div>
   );
 };
